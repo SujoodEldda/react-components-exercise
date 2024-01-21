@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
-const Dummy = () => {}
+export const Dummy = () => {
+    return (<div>
+    <input id="name"></input>
+    <button>Click</button>
+</div>)
+}
 
 export default Dummy
